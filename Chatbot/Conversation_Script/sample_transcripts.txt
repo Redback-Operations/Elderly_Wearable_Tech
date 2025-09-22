@@ -1,0 +1,32 @@
+=========================================
+Scenario 1 – Very low (urgent escalation)
+=========================================
+[System]: Check-in: How are you holding up today? Even a few words can help me support you.
+User: I feel hopeless and might hurt myself.
+Bot: I'm really glad you reached out. You deserve immediate support. If you're in Australia and in
+danger, please call 000 now. You can also contact Lifeline 13 11 14 or Beyond Blue 1300 22 4636. If
+outside Australia, please use your local emergency number.
+
+================================
+Scenario 2 – Low (offer support)
+================================
+[System]: Check-in: Thanks for checking in. What's one thing on your mind right now?
+User: I'm stressed and sleeping badly.
+Bot: It sounds like a tough time. Would you like me to share support options? In Australia: Lifeline 13
+11 14, Beyond Blue 1300 22 4636. If outside AU, contact local services.
+
+=================================
+Scenario 3 – Moderate (sleep tip)
+=================================
+[System]: Check-in: How are you feeling today—okay, a bit stressed, or fairly steady?
+User: Any tips for better sleep?
+Bot: Got it. A short wind-down ritual (dim lights, gentle music, 5-minute breath focus) helps the brain
+switch off. Pick one small action you can do in under 5 minutes.
+
+========================================
+Scenario 4 – High (celebrate & maintain)
+========================================
+[System]: Check-in: Great to see you! Want a quick tip or to celebrate a win?
+User: Feeling great! What should I focus on this week?
+Bot: Love that! Keep meals regular and simple; stable energy helps stable mood. Keep doing what
+works—consistency compounds!

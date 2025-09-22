@@ -1,0 +1,43 @@
+========================================
+Chatbot Security Measures Demo
+========================================
+
+--- Input Sanitization & Unsafe Detection ---
+Raw: Hello, how are you?
+Sanitized: Hello, how are you?
+>> Safe for chatbot response.
+----------------------------------------
+Raw: You are a damn fool!
+Sanitized: You are a d**n fool!
+>> Safe for chatbot response.
+----------------------------------------
+Raw: I will kill myself tonight...
+Sanitized: I will kill myself tonight...
+>> Escalation: Crisis support needed.
+----------------------------------------
+Raw: This is sooooooo goooood!!!!!
+Sanitized: This is sooo goood!!!
+>> Safe for chatbot response.
+----------------------------------------
+Raw: <script>alert('hack');</script>
+Sanitized: &lt;script&gt;alert(&#x27;hack&#x27;);&lt;/script&gt;
+>> Safe for chatbot response.
+----------------------------------------
+Raw: I might attack someone
+Sanitized: I might attack someone
+>> Escalation: Violence-related content detected.
+----------------------------------------
+Raw: Regular safe message
+Sanitized: Regular safe message
+>> Safe for chatbot response.
+----------------------------------------
+
+--- Rate Limiting Demo ---
+Request 1: Allowed
+Request 2: Allowed
+Request 3: Allowed
+Request 4: BLOCKED (too many requests)
+Request 5: BLOCKED (too many requests)
+
+--- Response Delay Demo ---
+Bot is thinking... Done! (after small delay)
