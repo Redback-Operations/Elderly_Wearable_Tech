@@ -59,7 +59,7 @@ The **Alzheimer's Disease Prediction** project uses machine learning models to a
 ## Usage
 
 ### Upload Alzheimer's Data:
-- The notebook loads a dataset containing clinical and neuroimaging data.
+- The notebook loads a dataset containing clinical and neuroimaging data which can be found within the Data Warehouse.
 - Ensure the dataset is correctly formatted and structured as expected for the best results.
 
 ### Train and Test the Model:

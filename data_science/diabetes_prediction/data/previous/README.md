@@ -1,4 +1,7 @@
-Contained in this folder is:
+The following data can be found within the Data Warehouse:
+
+Link to Data Warehouse Documentation for more information: [Redback Documentation](https://redback-operations.github.io/redback-documentation/docs/category/data-warehousing-team "Go to doc")
+
 
 1. diabetes_predication_dataset.csv
    - This was a previous dataset that was looked at, but subsequently has been dropped from our work after further analysis this trimester.

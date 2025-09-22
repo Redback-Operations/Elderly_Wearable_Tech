@@ -66,7 +66,7 @@ The **Health Monitoring Dashboard** is a web-based dashboard created using **Das
 ## Usage
 
 ### Upload Health Data:
-The dashboard loads a CSV file (`HealthData.csv`) containing the health metrics of elderly individuals. Ensure that your data file is structured as expected before running the dashboard.
+The dashboard loads a CSV file (`HealthData.csv`) which can be found in the data warehouse and contains the health metrics of elderly individuals. Ensure that your data file is structured as expected before running the dashboard.
 
 ### Start the Dashboard:
 After running the script or notebook, open your browser and go to the following address to view the dashboard:
