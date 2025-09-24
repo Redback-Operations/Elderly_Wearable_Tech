@@ -1,0 +1,6 @@
+,0
+test_accuracy,0.8585
+cv_mean_accuracy,0.8665
+cv_std,0.0073
+num_features,25.0
+num_classes,7.0
