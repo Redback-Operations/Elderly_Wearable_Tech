@@ -1,0 +1,82 @@
+{
+  "buckets": {
+    "very_low": {
+      "range": [
+        0,
+        25
+      ],
+      "tone": "urgent_gentle"
+    },
+    "low": {
+      "range": [
+        26,
+        49
+      ],
+      "tone": "gentle"
+    },
+    "moderate": {
+      "range": [
+        50,
+        74
+      ],
+      "tone": "supportive"
+    },
+    "high": {
+      "range": [
+        75,
+        100
+      ],
+      "tone": "celebratory"
+    }
+  },
+  "intents": {
+    "sleep": [
+      "Try a consistent bedtime/wake-up window. Keep screens away for 60 minutes before sleep.",
+      "A short wind-down ritual (dim lights, gentle music, 5-minute breath focus) helps the brain switch off.",
+      "If you wake at night, avoid clock-watching—read something light under warm light for 10–15 minutes."
+    ],
+    "stress": [
+      "Box breathing: inhale 4s, hold 4s, exhale 4s, hold 4s—repeat for 2 minutes.",
+      "Write down the top 1–2 worries, circle what you can control, and pick one small action today.",
+      "Take a 10-minute walk outdoors to reset your nervous system."
+    ],
+    "lonely": [
+      "Call or text a trusted person and share one highlight from your day.",
+      "Consider local community groups or a short volunteer session this week.",
+      "Schedule a brief chat with family/friends after dinner—put it on the calendar."
+    ],
+    "activity": [
+      "Try a 5–10 minute gentle stretch after meals.",
+      "If safe, add a 15-minute easy walk today—track how you feel afterwards.",
+      "Balance: 3 days of light walking + 2 days of flexibility in a week works well."
+    ],
+    "hydration": [
+      "Keep water visible; aim for small sips each hour.",
+      "Pair water with regular routines (after brushing teeth, after each phone call).",
+      "Try herbal tea in the evening to reduce caffeine."
+    ],
+    "general": [
+      "Small steps count—pick one action you can do in under 5 minutes.",
+      "Sunlight in the morning and gentle movement improve mood and sleep.",
+      "Keep meals regular and simple; stable energy helps stable mood."
+    ]
+  },
+  "escalation": {
+    "immediate_keywords": [
+      "suicide",
+      "kill myself",
+      "hurt myself",
+      "self harm",
+      "end my life",
+      "harm myself"
+    ],
+    "thresholds": {
+      "offer_support_at_or_below": 39,
+      "urgent_at_or_below": 25
+    },
+    "messages": {
+      "urgent": "I'm really glad you reached out. You deserve immediate support. If you're in Australia and in danger, please call 000 now. You can also contact Lifeline 13 11 14 or Beyond Blue 1300 22 4636. If outside Australia, please use your local emergency number.",
+      "offer": "It sounds like a tough time. Would you like me to share support options? In Australia: Lifeline 13 11 14, Beyond Blue 1300 22 4636. If outside AU, contact local services."
+    }
+  }
+}
